@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProMotive Garage</title>
+    <style>
+        body{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .logo img{
+            width: 80px;
+        }
+        .nav-container{
+            display: inline-block;
+        }
+        .nav-menu{
+            display: inline-block;
+        }
+        .nav{
+            display: block;
+            position: fixed;
+            width: 100%;
+            text-align: right;
+            background-color: #ffd8a8;
+        }
+        .nav-item{
+            display: inline-block;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        .nav ul{
+            margin: 2px;
+        }
+        .nav ul img{
+            width: 80px;
+        }
+        .nav ul a{
+            color: black;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            background-color: #ff8040;
+            border-radius: 10px;
+        }
+        .services-container {
+            text-align: center;
+        }
+        .service-item {
+            display: inline-block;
+            width: 30%;
+            margin: 15px;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            vertical-align: top;
+        }
+        .service-item h3 {
+            margin-top: 20px;
+        }
+        .services-container img{
+            width: 80px;
+        }
+        .service-item p {
+            color: #666;
+        }
+        .service-heading {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .service-sub-heading {
+            font-size: 18px;
+            color: gray;
+            margin-bottom: 40px;
+        }
+        .about-container{
+            text-align: center;
+        }
+        .about-heading{
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .about-sub-heading{
+            color: gray;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .about-item{
+            width: 30%;
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            background-color: #f5f5f5;
+            border-radius: 10px;
+            height: 280px;
+        }
+        .about-item img{
+            width: 100px;
+        }
+        .about-item p{
+            color: #666;
+        }
+        .contact-container{
+            background-color: #ffd8a8;
+        }
+        .Contact-heading{
+            text-align: center;
+        }
+        .contact-form{
+        max-width: 400px;
+        margin: 0 auto;
+        }
+        .contact-sub-heading{
+            color: #666;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        label{
+            display: block;
+            font-size: 22px;
+            padding: 20px 0;
+        }
+        input[type="text"],textarea{
+            width: 350px;
+            height: 30px;
+        }
+        textarea{
+            height: 80px;
+        }
+        input::placeholder,
+        textarea::placeholder {
+            font-size: 18px; 
+        }  
+        .submit input{
+            margin: 20px;
+            width: 300px;
+            padding: 10px; 
+            border: none; 
+            border-radius: 20px; 
+            background-color: #ff8040; 
+            color: white; 
+            font-size: 16px; 
+        } 
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-container">
+            <ul>
+                <li class="nav-item">
+                    <a href="#top-image">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="top-image">
+        <img src="images/2022-bmw-m5-cs-2.jpg" alt=""  width="100%" >
+    </div>
+    <div id="services">
+        <div class="services-container">
+            <p class="service-sub-heading">WE OFFER BEST REPAIR SERVICES</p>
+            <h1 class="service-heading">Our Services</h1>
+    
+            <div class="service-item">
+                <img src="images/change-car-oil-svgrepo-com.svg" alt="Oil Changes">
+                <h3>Oil Changes</h3>
+                <p>Ensure your engine runs smoothly with regular oil changes using top-quality oil and filters, improving performance and fuel efficiency.</p>
+            </div>
+    
+            <div class="service-item">
+                <img src="images/car-wash-svgrepo-com(1).svg" alt="Wash & Clean">
+                <h3>Wash & Clean</h3>
+                <p>Keep your car spotless with our comprehensive wash and clean services, including exterior detailing and interior care.</p>
+            </div>
+    
+            <div class="service-item">
+                <img src="images/brake-disks-svgrepo-com.svg" alt="ABS Brakes">
+                <h3>ABS Brakes</h3>
+                <p>Maintain optimal safety with our ABS brake service, ensuring effective braking and control in all conditions.</p>
+            </div>
+    
+            <div class="service-item">
+                <img src="images/transmission-svgrepo-com.svg" alt="Transmission">
+                <h3>Transmission</h3>
+                <p>Ensure smooth gear shifts and efficient performance with our expert transmission inspection and maintenance services.</p>
+            </div>
+    
+            <div class="service-item">
+                <img src="images/tire-svgrepo-com.svg" alt="Tires & Wheels">
+                <h3>Tires & Wheels</h3>
+                <p>Enhance safety and ride comfort with our tire and wheel services, including balancing, alignment, and rotation.</p>
+            </div>
+    
+            <div class="service-item">
+                <img src="images/engine-svgrepo-com.svg" alt="Engine Tuning">
+                <h3>Engine Tuning</h3>
+                <p>Boost engine performance and fuel efficiency with our professional engine tuning and diagnostics services.</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="about-container">
+            <h1 class="about-heading">About</h1>
+            <p class="about-sub-heading">Welcome to <strong>ProMotive Garage</strong>, your trusted partner for all your car services needs. We believe that quality, professionalism, and customer satisfaction should be at the forefront of everything we do.</p>
+            
+        <div class="about-content">
+            <div class="about-item">
+                <h2>Our Journey</h2>
+                <img src="images/journey-svgrepo-com.svg" alt="Journey Logo">
+                <p>Founded in 2004, we started with a vision to provide top-tier solutions to clients. Over the years, we've expanded our services, improved our expertise, and served countless satisfied customers.</p>
+            </div>
+            <div class="about-item">
+                <h2>Our Mission</h2>
+                <img src="images/dart-mission-goal-success-svgrepo-com.svg" alt="Mission Logo">
+                <p>Our mission is to offer unparalleled service that exceeds expectations. We continuously adopt the latest innovations, ensuring the best results for our customers.</p>
+            </div>
+            <div class="about-item">
+                <h2>Our Values</h2>
+                <img src="images/chart-line-alt-1-svgrepo-com.svg" alt="Values Logo">
+                <p>At <strong>ProMotive Garage</strong>, we prioritize our customers, ensuring their needs are met with care. Our commitment to <strong>integrity</strong> fosters transparency and trust. We strive for <strong>quality</strong> in all our services and embrace <strong>innovation</strong> to deliver the best solutions.</p>
+            </div>
+        </div>
+    </div>
+    <div id="Contact">
+            <h1 class="Contact-heading">Contact us</h1>
+            <p class="contact-sub-heading">Our Team will reach you ASAP!</p>
+        <div class="contact-container">
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter your Name"   id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="text" placeholder="Enter your email" id="email" name="email" required>
+                <label for="number">Mobile Number:</label>
+                <input type="text" placeholder="Enter your Mobile number" id="number" name="number" required>
+                <label for="message">Message:</label>
+                <textarea row="4" type="text" placeholder="Enter the message" id="message" name="message" required></textarea>
+                <div class="submit">
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>© 2024 ProMotive Garage. All Rights Reserved.</p>
+</footer>
+</html>
